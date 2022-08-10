@@ -18,7 +18,7 @@ class SelfiSegmentation():
         self.mpSelfieSegmentation = mp.solutions.selfie_segmentation
         self.selfieSegmentation = self.mpSelfieSegmentation.SelfieSegmentation(self.model)
 
-    def removeBG(self, img, imgBg=cv2.imread("bg_default.png"), threshold=0.1):
+    def removeBG(self, img, imgBg=cv2.imread("bg_default.png"), threshold=0.9):
         """
 
         :param img: image to remove background from
