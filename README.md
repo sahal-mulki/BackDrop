@@ -1,3 +1,7 @@
+<p align="center" width="100%">
+    <img width="33%" src="https://i.imgur.com/D9GFGpv.png">
+</p>
+
 # What's BackDrop?
 
 BackDrop's a simple script for a background changing camera filter for online calling.
