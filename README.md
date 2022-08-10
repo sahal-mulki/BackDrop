@@ -20,7 +20,7 @@ After installing all that, open your terminal, download the BackDrop code, run t
 pip install -r requirements.txt
 ```
 
-Then just click webcam.pyw in the BackDrop folder to start BackDrop!
+Then just click webcam.pyw in the BackDrop/src folder to start BackDrop!
 
 # ____ isn't working!
 
