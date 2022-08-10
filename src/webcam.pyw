@@ -153,7 +153,7 @@ button2.grid(row=4, column=3)
 button3 = Button(win, text="Click me!", command=lambda:change_pic2())
 img3 = PhotoImage(file="Untitled(8).png") # make sure to add "/" not "\"
 button3.config(image=img3)
-button3.grid(row=4, column=0)
+button3.grid(row=4, column=0, pady = 100)
 
 
 # Define function to show frame
@@ -201,9 +201,9 @@ def show_frames():
 show_frames()
 win.mainloop()
 
+f = open("proc_run.txt", "w")
+f.write("false")
+
 os.system("taskkill /IM pyw.exe /F")
 os.system("pkill -9 pyw")
 os.system("pkill -9 python")
-
-f = open("proc_run.txt", "w")
-f.write("false")
